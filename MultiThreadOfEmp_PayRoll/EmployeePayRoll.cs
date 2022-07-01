@@ -54,14 +54,5 @@ namespace MultiThreadOfEmp_PayRoll
             }
             Console.WriteLine(this.employeeList.Count);
         }
-        public void addEmployeePayRoll(EmployeeModalClass emp)
-        {
-            employeeList.Add(emp);
-
-        }
-        public int EmployeeCount()
-        {
-            return this.employeeList.Count;
-        }
     }
 }
